@@ -1,7 +1,37 @@
+body {
+  font-family: 'Supermercado One', cursive;
+}
+
+html{
+  scroll-behavior: smooth;
+}
 
 h1, h5 {
-  color: #D4AC2B;
-  font-family: 'Lobster Two', cursive;
+  color: #A1B57D;
+}
+
+hr {
+  border: 1px solid steelblue;
+
+}
+
+address {
+
+  font-size: 1.5em;
+}
+
+iframe {
+  width: 75%; 
+  height: 270px;
+  border: 1px solid red;
+}
+
+/* Class Selectors */
+
+
+.navbar-brand {
+ 
+  font-size: 1.3em;
 }
 
 .header-img {
@@ -9,13 +39,6 @@ h1, h5 {
   height: 400px;
   background: url('images/background.jpg');
   background-size: cover;
-}
-
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .img-thumbnail, .btn-scl {
@@ -31,3 +54,8 @@ p {
     box-shadow: 0 0 0 50px rgba(144, 203, 240, 0);
   }
 }
+
+.pfs:hover {
+  background-color: orangered;
+}
+
