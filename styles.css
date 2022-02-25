@@ -40,7 +40,7 @@ iframe {
   background-size: cover;
 }
 
-.img-thumbnail, .btn-scl {
+.btn-scl {
   animation : pulse 1s infinite;
 }
 
@@ -55,6 +55,6 @@ iframe {
 }
 
 .pfs:hover {
-  background-color: orangered;
+  background-color: steelblue;
 }
 
