@@ -1,10 +1,6 @@
 body {
   font-family: 'EB Garamond', serif;}
 
-html{
-  scroll-behavior: smooth;
-}
-
 h1, h5 {
   color: #A1B57D;
 }
@@ -26,6 +22,8 @@ iframe {
 }
 
 /* Class Selectors */
+
+
 
 
 .navbar-brand {
@@ -54,7 +52,31 @@ iframe {
   }
 }
 
+.portfolio {
+  background: ;
+}
+
+.pfs {
+  width: 400px;
+  height: 400px;
+  margin: 30px auto;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #777;
+  border-radius: 5px;
+  border: 3px green;
+}
+
+.pfs > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pfs > h3 , p {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .pfs:hover {
-  background-color: steelblue;
+box-shadow: 10px 10px 20px #aaa;
 }
 
