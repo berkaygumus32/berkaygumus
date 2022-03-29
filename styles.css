@@ -3,6 +3,13 @@ body {
 
 }
 
+.wrapper {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+
 h1, h5 {
   color: #A1B57D;
 }
@@ -31,7 +38,7 @@ iframe {
   padding: 5px;
   box-shadow: 5px 5px 10px #777;
   border-radius: 5px;
-  background-color: #8FC1D4;
+  background-color: #F4F9F9;
 }
 
 .cert > img {
@@ -52,7 +59,7 @@ iframe {
   padding: 5px;
   box-shadow: 5px 5px 10px #777;
   border-radius: 5px;
-  background-color: #E4D1B9;
+  background-color: #F4F9F9;
   cursor: pointer;
 }
 
@@ -61,9 +68,10 @@ iframe {
   max-width: 100%;
 }
 
-.pfs > h3 , p {
+.pfs-content > h3 , p {
   text-align: center;
   margin-top: 10px;
+  margin-top: 8%;
 }
 
 .pfs:hover {
