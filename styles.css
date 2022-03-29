@@ -1,5 +1,7 @@
 body {
-  font-family: 'EB Garamond', serif;}
+  font-family: 'EB Garamond', serif;
+
+}
 
 h1, h5 {
   color: #A1B57D;
@@ -22,8 +24,51 @@ iframe {
 }
 
 /* Class Selectors */
+.cert {
+  width: 300px;
+  height: 400px;
+  margin: 30px auto;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #777;
+  border-radius: 5px;
+  background-color: #8FC1D4;
+}
+
+.cert > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cert:hover {
+  box-shadow: 10px 10px 20px #aaa;
+}
 
 
+
+.pfs {
+  width: 300px;
+  height: 400px;
+  margin: 30px auto;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #777;
+  border-radius: 5px;
+  background-color: #E4D1B9;
+  cursor: pointer;
+}
+
+.pfs > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pfs > h3 , p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pfs:hover {
+box-shadow: 10px 10px 20px #aaa;
+}
 
 
 .navbar-brand {
@@ -52,31 +97,4 @@ iframe {
   }
 }
 
-.portfolio {
-  background: ;
-}
-
-.pfs {
-  width: 400px;
-  height: 400px;
-  margin: 30px auto;
-  padding: 5px;
-  box-shadow: 5px 5px 10px #777;
-  border-radius: 5px;
-  border: 3px green;
-}
-
-.pfs > img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.pfs > h3 , p {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.pfs:hover {
-box-shadow: 10px 10px 20px #aaa;
-}
 
