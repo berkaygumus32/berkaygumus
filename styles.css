@@ -1,9 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'EB Garamond', serif;
   background: #eee;
-}
-
-.wrapper {
   margin: 0;
   padding: 0;
 }
@@ -15,7 +16,6 @@ h1, h5 {
 
 hr {
   border: 1px solid steelblue;
-
 }
 
 address {
@@ -91,24 +91,34 @@ footer .btn-github {
 }
 
 .pfs > img {
-  max-height: 100%;
+  max-height: auto;
   max-width: 100%;
 }
 
 .pfs-content > h5 , p {
   text-align: center;
   margin-top: 10px;
-  margin-top: 8%;
+  margin-bottom: 1rem;
   color: #000;
+}
+
+.line {
+  width: 9rem;
+  height: .13rem;
+  background-color: rgb(19, 139, 53);
+  margin: 1rem auto; 
 }
 
 .pfs:hover {
 box-shadow: 10px 10px 20px #aaa;
 }
 
+.navbar {
+  scroll-behavior: smooth;
+}
 
 .navbar-brand {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .header-img {
@@ -119,4 +129,35 @@ box-shadow: 10px 10px 20px #aaa;
 }
 
 
+/* Additional Responsiveness */
+@media (max-width: 750px) {
+  .about-me-image {
+    width: 12rem;
+  }
 
+  .pfs {
+    width: 12rem;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .pfs-content > h5 {
+    font-weight: 700;
+    font-size: .96rem;
+    line-height: 1.4rem;
+  }
+
+  .pfs-content > p {
+    font-size: .96rem;
+    line-height: 1.4rem;
+  }
+
+  .line {
+    width: 6rem;
+    height: .13rem;
+    background-color: rgb(19, 139, 53);
+    margin: 1rem auto;
+  }
+}
+
+/* End of Additional Responsiveness */
