@@ -1,136 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berkay Gumus</title>
-
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-    <!--  -->
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet"></head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Berkay Gumus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
-   
-        <section class="colored-section " id="title">
-            <div class="container-fluid g-0">
-                <nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light">
-                    <a href="index.html" class="navbar-brand active p-3">Berkay Gumus</a>
-                    <button class="navbar-toggler" id="purple"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse p-3" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-4">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="projects.html" class="nav-link">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="white-section m-5" id="about">
-            <div class="container-fluid">
-                <div class="row align-items-start p-3">
-                    <!-- About me -->
-                    <div class="col-sm-12 col-md-4 col-lg-4"> 
-                        <h1 class="text-center mt-5 mb-5 d-none d-sm-block">About Me</h1> 
-                        <p class="text-center d-none d-sm-block">Hello, My name is Berkay. <br>I am a Full-Stack Web &#x26 Mobile Application Development graduate who enjoys building responsive and dynamic websites, applications. <br> 
-                            I am experienced in JavaScript programming language from Front to Back; developing, editing, testing and debugging code.
-                        </p>
-                    </div>
-                    <!-- img -->
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <img  class="about-me-image img-fluid img-thumbnail rounded-circle d-block m-auto" src="images/berkaygumus.jpg" alt="berkaygumus img">
-                    </div>
-                    <!-- skills -->
-                    <div class="col-sm-12 col-md-4 col-lg-4 mt-5 ">
-                        <h1 class="text-center d-none d-sm-block">Skills</h1>
-                        <p class="text-center d-none d-sm-block">Html, Css, Bootstrap, JavaScript, ReactJS, <br> React Native, NodeJS, Express, MongoDB</p>
-                    </div>
+    <!-- about section -->
+    <section class="about mt-5" id="about">
+        <div class="container">
+            <div class="row align-items-start justify-content-center">
+                <!-- About me -->
+                <div class="col-sm-12 col-md-4 col-lg-4"> 
+                    <h1 class="text-center my-5 d-none d-sm-block">About Me</h1> 
+                    <p class="text-center d-none d-sm-block">Hello, My name is Berkay. <br>I am a Full-Stack Web &#x26 Mobile Application Development graduate who enjoys building responsive and dynamic websites, applications. <br> 
+                        I am experienced in JavaScript programming language from Front to Back; developing, editing, testing and debugging code.
+                    </p>
                 </div>
-                <hr>
+                <!-- img -->
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <img  class="img-fluid img-thumbnail rounded-circle d-block m-auto" src="images/berkaygumus.jpg" alt="berkaygumus img">
+                </div>
+                <!-- skills -->
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5 ">
+                    <h1 class="text-center d-none d-sm-block">Skills</h1>
+                    <p class="text-center d-none d-sm-block">Html, Css, Bootstrap, JavaScript, ReactJS, <br> React Native, NodeJS, Express, MongoDB</p>
+                </div>
             </div>
-        </section>
+            <hr>
+        </div>
+    </section>
 
-        <!-- Portfolio  -->
+    <!-- end of about section -->
 
-        
+    <!-- work section -->
+    <section class="work mt-5" id="work">
+        <div class="container-lg container-fluid">
 
+            <div class="row my-5 align-items-center justify-content-center g-0">
 
-        <!-- End of Portfolio -->
-    
-        <!-- Site Footer -->
-
-        <section class="footer m-5">
-            <footer class="site-footer m-5">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h5 class="mb-5">Social Media Accounts</h5>
-                            <div class="wrapper btn-scl m-2">
-                                <a class="btn btn-social-icon btn-linkedin" 
-                                    target="_blank" href="https://www.linkedin.com/in/berkay-gumus-70456b202/">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a class="btn btn-social-icon btn-github" 
-                                    target="_blank" href="https://github.com/berkaygumus32">
-                                    <i class="fab fa-brands fa-github"></i>
-                                </a>
-
-                                <a class="btn btn-social-icon btn-twitter" 
-                                    target="_blank" href="https://twitter.com/brrkygms">
-                                    <i class="fab fa-brands fa-twitter"></i>
-                                </a>
-
-                                <a class="btn btn-social-icon btn-instagram" 
-                                    target="_blank" href="https://www.instagram.com/brrkygms/?hl=tr">
-                                    <i class="fab fa-brands fa-instagram"></i>
-                                </a>
-                            </div>
-                            
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/exorship.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Battle Ship Game</h5>
+                            <a class="btn btn-primary btn-sm" href="https://exorship.netlify.app/" target="_blank">Check It Out!</a>
                         </div>
-                    
-                    </div>
-
-                    <hr>
-
-                    <div class="row mb-5">
-                        <small class="col-auto mx-auto">Built with HTML, CSS, BOOTSTRAP.</small>
                     </div>
                 </div>
-            </footer>
-        </section>
 
-  
-   
-    <script src="script.js"></script>
-    <script src="bootstrap.js"></script>
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/wyt.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Trading Company</h5>
+                            <a class="btn btn-primary btn-sm" href="https://widenyourtrade.netlify.app" target="_blank">Check It Out!</a>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- React'i yükle. -->
-  <!-- Not: yayınlama için hazırlanırken,  "development.js" yi "production.min.js" ile değiştirin -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/nsnjs.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Newsletter Sign Up Page</h5>
+                          <p>P.S. API key deactivated</p>
+                          <a class="btn btn-primary btn-sm" href="https://dry-dusk-16497.herokuapp.com/" target="_blank">Check It Out!</a>
+                        </div>
+                    </div>
+                </div>
 
-  <!-- React bileşenimizi yükleyin. -->
-  <script src="like_button.js"></script>
+            </div>
 
-</body>
+            <div class="row my-5 align-items-center justify-content-center g-0">
+
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/tribute copy.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Tribute Page</h5>
+                          <a class="btn btn-primary btn-sm" href="https://tributtepage.netlify.app/" target="_blank">Check It Out!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/tdp.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Technical Doc. Page</h5>
+                          <a class="btn btn-primary btn-sm" href="https://techdoccpage.netlify.app/" target="_blank">Check It Out!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-md-6 col-xl-3 mb-3">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="/images/gumushotel.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Gumus Hotel</h5>
+                          <a class="btn btn-primary btn-sm" href="https://gumus-hotel.vercel.app/" target="_blank">Check It Out!</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- end of work section -->
+
+    <!-- contact section -->
+
+    <section class="contact mt-5" id="contact">
+        <div class="container-sm">
+            
+            <div class="row justify-content-center align-items-center">
+                <div class="text-center">
+                    <h1 class="mb-5">Get in Touch</h1>
+                    <address>Centerville City, Davis County <br>
+                        UT, 84014
+                    </address>
+                    <a role="button" href="tel:13852274814" class="btn btn-link"><i class="fa fa-phone"></i> 1-385-227-4814</a> <br>
+                    <a role="button" href="mailto:berkaygumus32@gmail.com" class="btn btn-link"><i class="fas fa-envelope"></i>
+                        berkaygumus32@gmail.com</a>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-9">
+                    <form action="https://formsubmit.co/berkaygumus32@gmail.com" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Full Name" >
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your E-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactText" class="form-label"></label>
+                            <textarea class="form-control" id="contactText" rows="10" cols="10" placeholder="Enter Your Message"></textarea>
+                        </div>    
+                        <div class="d-grid gap-2 mb-5">
+                            <button class="btn btn-success" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of contact section -->
+    <!-- footer section -->
+    <section class="footer m-5">
+        <footer class="site-footer m-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center">
+                        <h5 class="mb-5">Social Media Accounts</h5>
+                        <div class="btn btn-scl m-2">
+                            <a class="btn btn-social-icon btn-linkedin social-link social-icon" target="_blank" href="https://www.linkedin.com/in/berkay-gumus-70456b202/"><i class="fab fa-linkedin social-icon"></i></a>
+                            <a class="btn btn-social-icon btn-github social-link" target="_blank" href="https://github.com/berkaygumus32"><i class="fab fa-brands fa-github social-icon"></i></a>
+                            <a class="btn btn-social-icon btn-twitter social-link" target="_blank" href="https://twitter.com/brrkygms" ><i class="fab fa-brands fa-twitter social-icon"></i></a>
+                            <a class="btn btn-social-icon btn-instagram social-link" target="_blank" href="https://www.instagram.com/brrkygms/" ><i class="fab fa-brands fa-instagram social-icon"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+      
+    <!-- end of footer section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-
