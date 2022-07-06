@@ -71,6 +71,13 @@ footer {
     
   }
 
+  footer .btn,
+  footer > i {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+  }
+
   /* @media (max-width: 600px) {
     #work {
       display: flex;
